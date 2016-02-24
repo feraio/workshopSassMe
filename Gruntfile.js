@@ -88,5 +88,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build:dev',['clean', 'sass', 'copy:html', 'copy:resources', 'watch']);
 
-  grunt.registerTask('build:prod',['clean', 'sass', 'cssmin', 'copy:html', 'copy:images', 'copy:resources']);
+  grunt.registerTask('build:prod',['clean', 'sass', 'cssmin', 'copy:html', 'copy:resources']);
 };
